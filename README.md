@@ -50,7 +50,24 @@ Submissão ficou detro do top 1500 do House Prices no Kaggle. <br>
   - Por padrão os modelos estão penalizando considerando o erro quadrado, isso faz com que valores distantes tenham peso muito menor.
   - Isso pode ser modificado considerando a necessidade do negócio.
   - Aqui não foi modificado.
-<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Maldi%C3%A7%C3%A3o%20da%20dimensionalidade.png?raw=true" width=500><br>
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Graficos%20sub1.png?raw=true" width=800><br>
+- Por fim foi submetido e obtido o seguinte score:
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Submiss%C3%A3o%201.png?raw=true" width=800><br>
+### Submissão 2
+- Nesta submissão o diferencial é que foram consideradas as correlações das features com a target.
+- Foi observada a correlação linear(Pearson) e não-linear(Spearman) respectivamente.<br>
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Correla%C3%A7%C3%A3o%20Pearson.png?raw=true" width=400><br>
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Correla%C3%A7%C3%A3o%20de%20Spearman.png?raw=true" width=400><br>
+- Observando que as correlações de Spearman era maior, ela foi considerada e aquelas features com correlação menor que 0.3 foram descartadas.
+- Após essa etapa, todo o processo descrito na submissão 1 foi repetido.<br>
+**Comparação entre os modelos**<br>
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Compara%C3%A7%C3%A3o%20de%20desempenho%20sub%202.png?raw=true" width=800><br>
+**Visualização Gráfica**<br>
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Graficos%20sub2.png?raw=true" width=800><br>
+**Submissão 2**<br>
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Submiss%C3%A3o%202.png?raw=true" width=800><br>
+
+
 ### Representação gráfica da previsão dos 3 melhores modelos
 <img  src="https://raw.githubusercontent.com/JoseVitor-OSS/HousePrices/main/Resultado/Melhores_modelos.png" />
 
