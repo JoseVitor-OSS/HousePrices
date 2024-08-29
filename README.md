@@ -66,6 +66,8 @@ Submissão ficou detro do top 1500 do House Prices no Kaggle. <br>
 <br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Graficos%20sub2.png?raw=true" width=800><br>
 **Submissão 2**<br>
 <br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Submiss%C3%A3o%202.png?raw=true" width=800><br>
+- Pode ser notado que a escolha de excluir as features com pouca correlação piorou nosso modelo.
+- Então, o ideal é deixar essa seleção de features para os pesos atribuidos a cada modelo, assim como realizado nas outras submissões.
 ### Submissão 3
 - Nessa etapa os dados categóricos finalmente foram utilizados.
 - O tratamento consistiu em 3 etapas:
