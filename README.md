@@ -1,17 +1,22 @@
 # HousePrices
-Desafio de previsão de preços de casas da base House Prices do Kaggle
+Desafio de previsão de preços de casas da base House Prices do Kaggle<br>
 Técnicas avançadas de regressão
 
+# Sobre a competição
+- A base de dados possui 79 variáveis que descrevem aspectos das residências de Ames, Iowa.
+- O Objetivo da competição é elaborar um modelo de regressão capaz de prever o preço das casas.
+- A métrica considerada no desafio é o Root-Mean-Squared-Error(RMSE) considerando o logarítimo para ter a mesma penalização em erros de casas caras e baratas.
+  
 ## Metodologia adotada
-- Foram realizadas 3 submissões durante o projeto
-- Em cada submissão foi realizado um tratamento diferente para os dados
-- Apenas a última submissão utilizou as features de texto
-- Foram utilizados inicialmente três algoritmos:
-  - Random Forrest
-  - Decision Tree
+- Foram realizadas 5 submissões durante o projeto.
+- As submissões podem ser divididas em 3 etapas distintas onde o tratamento dos dados foram evoluindo.
+- Após análise da base de dados e seguindo a dica do próprio desafio, foram adotados 3 algoritmos de regressão.
   - Gradiente Boosting (Indicado pelo próprio desafio)
-- Após observar o desempenho dos modelos, o Random Forrest foi substituido pelo Ridge
-
+  - XGBooster
+  - Lasso
+## Recursos utilizados
+- Feature engineering
+- 
 ### Submissão 1
 - 
 ### Representação gráfica da previsão dos 3 melhores modelos
