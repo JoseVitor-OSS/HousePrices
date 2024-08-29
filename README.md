@@ -1,7 +1,8 @@
 # HousePrices
 Desafio de previsão de preços de casas da base House Prices do Kaggle<br>
 Técnicas avançadas de regressão <br>
-<img src="https://storage.googleapis.com/kaggle-media/competitions/House%20Prices/kaggle_5407_media_housesbanner.png" width=800>
+Submissão ficou detro do top 1500 do House Prices no Kaggle. 
+<br><img src="https://storage.googleapis.com/kaggle-media/competitions/House%20Prices/kaggle_5407_media_housesbanner.png" width=800><br>
 # Sobre a competição
 - A base de dados possui 79 variáveis que descrevem aspectos das residências de Ames, Iowa.
 - O Objetivo da competição é elaborar um modelo de regressão capaz de prever o preço das casas.
@@ -26,7 +27,7 @@ Técnicas avançadas de regressão <br>
  - Otmização de hiperparâmetros.
  - Cross Validation.
 ### Submissão 1
-- 
+- O tratamento dos dados para primeira submissão considerou apenas o preenchimento de valores vazios e as features numéricas.
 ### Representação gráfica da previsão dos 3 melhores modelos
 <img  src="https://raw.githubusercontent.com/JoseVitor-OSS/HousePrices/main/Resultado/Melhores_modelos.png" />
 
