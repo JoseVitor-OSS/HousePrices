@@ -6,7 +6,7 @@ Técnicas avançadas de regressão <br>
 - A base de dados possui 79 variáveis que descrevem aspectos das residências de Ames, Iowa.
 - O Objetivo da competição é elaborar um modelo de regressão capaz de prever o preço das casas.
 - A métrica considerada no desafio é o Root-Mean-Squared-Error(RMSE) considerando o logarítimo para ter a mesma penalização em erros de casas caras e baratas.
-&nbsp<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDZcRHy4lOtYjOjcxhn72vPMjBGjRnPxkKA&s" width=600>
+<br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDZcRHy4lOtYjOjcxhn72vPMjBGjRnPxkKA&s" width=600><br>
 ## Metodologia adotada
 - Foram realizadas 5 submissões durante o projeto.
 - As submissões podem ser divididas em 3 etapas distintas onde o tratamento dos dados foram evoluindo.
@@ -15,8 +15,16 @@ Técnicas avançadas de regressão <br>
   - XGBooster
   - Lasso
 ## Recursos utilizados
-- Feature engineering
-- 
+- Tratamento de valores nulos.
+- Feature engineering.
+    - OrdinalEncoder.
+    - One Hot Encoder.
+    - Binarização.
+    - Transformação de features.
+    - Redução de cardinalidade.
+ - Seleção de características.
+ - Otmização de hiperparâmetros.
+ - Cross Validation.
 ### Submissão 1
 - 
 ### Representação gráfica da previsão dos 3 melhores modelos
