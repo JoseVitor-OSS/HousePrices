@@ -61,16 +61,30 @@ Submissão ficou detro do top 1500 do House Prices no Kaggle. <br>
 - Observando que as correlações de Spearman era maior, ela foi considerada e aquelas features com correlação menor que 0.3 foram descartadas.
 - Após essa etapa, todo o processo descrito na submissão 1 foi repetido.<br>
 **Comparação entre os modelos**<br>
-<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Compara%C3%A7%C3%A3o%20de%20desempenho%20sub%202.png?raw=true" width=800><br>
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Compara%C3%A7%C3%A3o%20de%20desempenho%20sub%202.png?raw=true" width=300><br>
 **Visualização Gráfica**<br>
 <br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Graficos%20sub2.png?raw=true" width=800><br>
 **Submissão 2**<br>
 <br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Submiss%C3%A3o%202.png?raw=true" width=800><br>
-
-
-### Representação gráfica da previsão dos 3 melhores modelos
-<img  src="https://raw.githubusercontent.com/JoseVitor-OSS/HousePrices/main/Resultado/Melhores_modelos.png" />
-
-### Score da submissão
-<img  src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/Resultado/image.png?raw=true"/>
+### Submissão 3
+- Nessa etapa os dados categóricos finalmente foram utilizados.
+- O tratamento consistiu em 3 etapas:
+  - Tratar valores nulos.
+  - Realizar codificação (Binarização, OrdinalEncoder, OneHotEncoder)
+  - Redução de cardinalidade (Considerar valores menos frequentes como um só grupo)
+- Em seguida o mesmo procediemnto utilizado nas submissões anteriores para utilização dos modelos foi repetido.
+**Comparação entre os modelos**<br>
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Compara%C3%A7%C3%A3o%20de%20desempenho%20sub%203.png?raw=true" width=300><br>
+**Visualização Gráfica**<br>
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Graficos%20sub%203.png?raw=true" width=800><br>
+- Como esta é a última submissão, foram ainda adicionadas as etapas de otimização dos hiperparâmetros e a validação cruzada.
+- Essas duas etapas estão contidas no GridSearchCV.
+- Algumas combinações de hiperparâmetros são testadas e é utilizada uma divisão do cross validation de 5 fols (parametro 'cv'= 5).
+- Como os modelos Gradiente Boosting e XGBoosting obtiveram scores próximos, essa etapa foi realizada para os dois modelos.<br>
+### Submissão 3.1 <br>
+- Submissão do modelo de Gradiente Boosting com hiperparâmetros melhorados.
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Submiss%C3%A3o%203.1.png?raw=true" width=800><br>
+### Submissão 3.2 <br>
+- Submissão do modelo de XGBoosting com hiperparâmetros melhorados.
+<br>&nbsp;&nbsp;&nbsp;<img src="https://github.com/JoseVitor-OSS/HousePrices/blob/main/imagens/Submiss%C3%A3o%203.2.png?raw=true" width=800><br>
 
